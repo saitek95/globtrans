@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li, ol {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    padding: 60px 0;
+}
+
+.btn {
+    padding: 14px 17px;
+    border-radius: 5px;
+}
+
+.btn-default {
+    border: 2px solid #32357C;
+    color: #32357C;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-default:hover {
+    background: #32357C;
+    color: #FFF;
+}
+
+.btn-blue {
+    background: #00C3E7;
+    border: 2px solid #00C3E7;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-blue:hover {
+    background: #FFF;
+    color: #00C3E7;
+    border-color: #00C3E7;
+}
+
+.btn-white {
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+.services a:hover .btn-white,
+.btn-white:hover {
+    background: #FFF;
+    color: #000;
+}
+
+header {
+    position: fixed;
+    background: #F9F9F9;
+    border-radius: 10px;
+    max-width: 1320px;
+    width: 100%;
+    padding: 18px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    top: 25px;
+    z-index: 9;
+}
+
+.top__head{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.top__head a {
+    color: #878AC3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top__head a:hover {
+    color: #32357C;
+}
+
+.bottom__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom__head .right_block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bottom__head .left_block {
+    display: flex;
+    gap: 10px;
+}
+
+.head-menu a {
+    color: #32357C;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10.5px;
+}
+
+.head-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 0;
+}
+
+.head-menu li {
+    transition: 0.2s;
+    padding: 14px 17px;
+}
+
+.head-menu li:hover {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.head-menu a>span {
+    font-size: 24px;
+    font-weight: 400;
+    height: fit-content;
+    display: block;
+}
+
+
+.top_big_banner {
+    height: 769px;
+    background-image: url(/assets/img/129e939042b6e0c62f4f2f85f5786f58.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top_big_banner h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 600;
+    max-width: 1013px;
+    text-align: center;
+}
+
+.top_big_banner form {
+    box-shadow: 0px 8px 6px 0px #0000001A;
+    backdrop-filter: blur(12px);
+    background-color: #F9F9F9F2;
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.top_big_banner form .item {
+    width: 277px;
+}
+
+.replace__inputs {
+    width: fit-content;
+}
+
+.top_big_banner form input {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 17px;
+}
+
+.top_big_banner form .item label {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.replace__inputs {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+}
+
+.replace__inputs .svg {
+    height: 28px;
+    width: 28px;
+    background: #32357C;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.services .col-4 {
+    height: 500px;
+}
+
+.services .img {
+    height: 100%;
+    border-radius: 15px;
+}
+
+.services .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.services .items h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.services .items p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 18px;
+    color: #FFF;
+}
+
+.services .col-12 {
+    height: 232px;
+    margin-top: 24px;
+}
+
+.services .col-12 .items {
+    display: flex;
+    align-items: flex-start;
+    left: 25%;
+    max-width: 900px;
+}
+
+.services .col-12 .items p {
+    text-align: left;
+}
