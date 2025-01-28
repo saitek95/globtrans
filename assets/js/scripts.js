@@ -1,10 +1,7 @@
 var addServicesSwiper = new Swiper(".add-services .swiper", {
-    slidesPerView: 3.5,
+    slidesPerView: 2.8,
     spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+
 });
 
 window.addEventListener("DOMContentLoaded", function() {

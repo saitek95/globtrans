@@ -8,6 +8,10 @@
     position: relative;
 }
 
+body {
+    background: #F9F9F9;
+}
+
 img {
     max-width: 100%;
 }
@@ -299,4 +303,15 @@ header {
     width: 933px;
     background-repeat: no-repeat;
     background-position: center left;
+}
+
+.add-services .swiper-slide {
+    background: #FFF;
+    border-radius: 15px;
+    padding: 40px 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
 }
