@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Международная транспортно-логистическая компания «Глобалтранс»</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -31,8 +32,8 @@
                     </div>
                 </div>
                 <div class="left_block">
-                    <button class="btn btn-default">Рассчитать стоимость</button>
-                    <button class="btn btn-blue">Отследить груз</button>
+                    <button class="btn btn-small btn-default">Рассчитать стоимость</button>
+                    <button class="btn btn-small btn-blue">Отследить груз</button>
                 </div>
             </div>
         </div>

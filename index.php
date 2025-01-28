@@ -24,7 +24,7 @@
             <div class="items">
                 <h3>Морские перевозки</h3>
                 <p>Описание описание описание описание описание</p>
-                <button href="#" class="btn btn-white">Подробнее</button>
+                <button href="#" class="btn btn-mdl btn-white">Подробнее</button>
             </div>
         </a>
         <a class="col-4">
@@ -32,7 +32,7 @@
             <div class="items">
                 <h3>Автоперевозки</h3>
                 <p>Описание описание описание описание описание</p>
-                <button href="#" class="btn btn-white">Подробнее</button>
+                <button href="#" class="btn btn-mdl btn-white">Подробнее</button>
             </div>
         </a>
         <a class="col-4">
@@ -40,22 +40,43 @@
             <div class="items">
                 <h3>Авиаперевозки</h3>
                 <p>Описание описание описание описание описание</p>
-                <button href="#" class="btn btn-white">Подробнее</button>
+                <button href="#" class="btn btn-mdl btn-white">Подробнее</button>
             </div>
         </a>
-        <a class="col-12">
+        <a class="col-12 full_item">
             <div class="img" style="background-image: url('assets/img/service4.jpg')"></div>
             <div class="items">
                 <h3>Железнодорожные перевозки</h3>
                 <p>Описание описание описание описание описание описание описание описание описание описание описание
                     описание описание описание</p>
-                <button href="#" class="btn btn-white">Подробнее</button>
+                <button href="#" class="btn btn-mdl btn-white">Подробнее</button>
             </div>
         </a>
-        <div class="col-12">
+        <div class="col-12 services_url">
             <a href="#" class="btn__all_services">
-                Смотреть все услуги
+                <span>Смотреть все услуги<span><img src="/assets/svg/btn-arrow-right.svg" class="svg" alt=""></span></span>
             </a>
+        </div>
+    </div>
+    <div class="row add-services">
+        <div class="col-2">
+            <h3>Другие услуги</h3>
+        </div>
+        <div class="col-10">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
 </div>

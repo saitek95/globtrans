@@ -26,8 +26,13 @@ ul, li, ol {
     padding: 60px 0;
 }
 
-.btn {
+.btn-small {
     padding: 14px 17px;
+    border-radius: 5px;
+}
+
+.btn-mdl {
+    padding: 14px 30px;
     border-radius: 5px;
 }
 
@@ -251,18 +256,47 @@ header {
     color: #FFF;
 }
 
-.services .col-12 {
+.services .full_item {
     height: 232px;
     margin-top: 24px;
 }
 
-.services .col-12 .items {
+.services .full_item .items {
     display: flex;
     align-items: flex-start;
     left: 25%;
     max-width: 900px;
 }
 
-.services .col-12 .items p {
+.services .full_item .items p {
     text-align: left;
+}
+
+.services_url {
+    margin-top: 28px;
+}
+
+.btn__all_services>span {
+    width: 424px;
+    display: block;
+    padding: 20px;
+    background: #32357C;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn__all_services:before {
+    content: '';
+    background-image: url('/assets/svg/btn_all_services.svg');
+    height: 70px;
+    position: absolute;
+    width: 933px;
+    background-repeat: no-repeat;
+    background-position: center left;
 }

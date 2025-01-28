@@ -1,3 +1,12 @@
+var addServicesSwiper = new Swiper(".add-services .swiper", {
+    slidesPerView: 3.5,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;
