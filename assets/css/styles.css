@@ -40,9 +40,23 @@ ul, li, ol {
     padding: .7rem !important;
 }
 
+.font-18 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.font-24 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
 .font-56 {
     font-size: 56px;
     font-weight: 700;
+}
+
+.text-grey {
+    color: #909090;
 }
 
 .text-blue {
@@ -580,4 +594,17 @@ header {
 .next_slider.swiper-button-disabled,
 .prev_slider.swiper-button-disabled {
     opacity: .6;
+}
+
+.why_us .col-6 {
+    padding-top: calc(var(--bs-gutter-x)* .5);
+    padding-bottom: calc(var(--bs-gutter-x)* .5);
+}
+
+.why_us .item {
+    height: 100%;
+}
+
+.why_us .item .d-flex {
+    gap: 20px;
 }
