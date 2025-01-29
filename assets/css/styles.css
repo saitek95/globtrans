@@ -29,7 +29,7 @@ ul, li, ol {
 }
 
 .container  {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 .rounded-25 {
@@ -38,6 +38,15 @@ ul, li, ol {
 
 .p-2 {
     padding: .7rem !important;
+}
+
+.font-56 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.text-blue {
+    color: #32357C;
 }
 
 .btn-small {
@@ -531,14 +540,6 @@ header {
     font-weight: 700;
 }
 
-.stock .swiper {
-    overflow: initial;
-}
-
-.stock .swiper-wrapper {
-    overflow: hidden;
-}
-
 .stock .swiper-slide .svg {
     position: absolute;
     z-index: 3;
@@ -564,14 +565,19 @@ header {
 
 .stock .next_slider {
     position: absolute;
-    right: -70px;
+    right: 0;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .stock .prev_slider {
     position: absolute;
-    left: -70px;
+    left: 0px;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.next_slider.swiper-button-disabled,
+.prev_slider.swiper-button-disabled {
+    opacity: .6;
 }

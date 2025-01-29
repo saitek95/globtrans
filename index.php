@@ -301,34 +301,108 @@
 </div>
 <div class="container stock">
     <h3 class="mb-5">Акции</h3>
-    <div class="swiper col-10 align-content-center">
-        <div class="swiper-wrapper">
-            <a href="#" class="swiper-slide rounded-3 bg-white">
-                <img src="assets/svg/icon_ru.svg" alt="" class="svg">
-                <img src="assets/img/stock-1.jpg" alt="">
-                <p>Специальный тариф до/из Красноярска</p>
-            </a>
-            <a href="#" class="swiper-slide rounded-3 bg-white">
-                <img src="assets/svg/icon_china.svg" alt="" class="svg">
-                <img src="assets/img/stock-2.jpg" alt="">
-                <p>Специальный тариф до/из Гуанчжоу</p>
-            </a>
-            <a href="#" class="swiper-slide rounded-3 bg-white">
-                <img src="assets/svg/icon_ru.svg" alt="" class="svg">
-                <img src="assets/img/stock-1.jpg" alt="">
-                <p>Специальный тариф до/из Красноярска</p>
-            </a>
-            <a href="#" class="swiper-slide rounded-3 bg-white">
-                <img src="assets/svg/icon_china.svg" alt="" class="svg">
-                <img src="assets/img/stock-2.jpg" alt="">
-                <p>Специальный тариф до/из Гуанчжоу</p>
-            </a>
+    <div class="stock_slides">
+        <div class="swiper col-10 align-content-center">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide rounded-3 bg-white">
+                    <img src="assets/svg/icon_ru.svg" alt="" class="svg">
+                    <img src="assets/img/stock-1.jpg" alt="">
+                    <p>Специальный тариф до/из Красноярска</p>
+                </a>
+                <a href="#" class="swiper-slide rounded-3 bg-white">
+                    <img src="assets/svg/icon_china.svg" alt="" class="svg">
+                    <img src="assets/img/stock-2.jpg" alt="">
+                    <p>Специальный тариф до/из Гуанчжоу</p>
+                </a>
+                <a href="#" class="swiper-slide rounded-3 bg-white">
+                    <img src="assets/svg/icon_ru.svg" alt="" class="svg">
+                    <img src="assets/img/stock-1.jpg" alt="">
+                    <p>Специальный тариф до/из Красноярска</p>
+                </a>
+                <a href="#" class="swiper-slide rounded-3 bg-white">
+                    <img src="assets/svg/icon_china.svg" alt="" class="svg">
+                    <img src="assets/img/stock-2.jpg" alt="">
+                    <p>Специальный тариф до/из Гуанчжоу</p>
+                </a>
+            </div>
         </div>
         <div class="next_slider">
             <img src="assets/svg/arrow_next_slider_no-bg.svg" alt="" class="svg">
         </div>
         <div class="prev_slider">
             <img src="assets/svg/arrow_prev_slider_no-bg.svg" alt="" class="svg">
+        </div>
+    </div>
+</div>
+<div class="container why_us">
+    <h3 class="text-center font-56 text-blue mb-5">
+        ПОЧЕМУ ВЫБИРАЮТ НАС
+    </h3>
+    <div class="row">
+        <div class="col-6">
+            <div class="bg-white p-2 rounded-3">
+                <div class="d-flex align-items-center">
+                    <img src="assets/svg/truck_svgrepo.com.svg" alt="" class="svg">
+                    <div class="font-24 text-blue">Собственный автопарк и широкий выбор маршрутов</div>
+                </div>
+                <p>Собственный автопарк позволяет нам охватывать как внутренние перевозки по России, так и маршруты
+                    в страны СНГ и дальнего зарубежья. Мы также организуем железнодорожные и авиационные перевозки,
+                    предоставляя клиентам гибкие и надежные логистические решения для сложных задач. Все маршруты
+                    планируются детально для обеспечения безопасности и своевременности доставки.</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="bg-white p-2 rounded-3">
+                <div class="d-flex align-items-center">
+                    <img src="assets/svg/garage_svgrepo.com.svg" alt="" class="svg">
+                    <div class="font-24 text-blue">Комплексное логистическое сопровождение</div>
+                </div>
+            <p>«Глобалтранс» предлагает полный цикл логистических услуг: таможенное оформление (ВЭД), складское
+                хранение, маркировку «Честный Знак», что позволяет нашим клиентам получить полное сопровождение — от
+                поступления груза до его передачи конечному получателю. Мы обеспечиваем надежность и прозрачность
+                на каждом этапе. Погрузочно-разгрузочные работы и специализированная техника</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="bg-white p-2 rounded-3">
+                <div class="d-flex align-items-center">
+                    <img src="assets/svg/worker_svgrepo.com.svg" alt="" class="svg">
+                    <div class="font-24 text-blue">Погрузочно-разгрузочные работы
+                        и специализированная техника</div>
+                </div>
+                <p>Мы предоставляем услуги погрузочно-разгрузочных работ
+                    с использованием специальной техники и обученного персонала. Работаем по всей территории, включая
+                    удаленные регионы, гарантируя безупречное качество и надежность логистического процесса.</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="bg-white p-2 rounded-3">
+                <div class="d-flex align-items-center">
+                    <img src="assets/svg/timer_svgrepo.com.svg" alt="" class="svg">
+                    <div class="font-24 text-blue">Эффективные решения для сложных задач</div>
+                </div>
+                <p>Команда «Глобалтранс» профессионально решает нестандартные задачи в сложных условиях, включая санкционные
+                    ограничения, что позволяет нашим клиентам оставаться конкурентоспособными. Мы специализируемся на
+                    перевозке сборных, проектных и негабаритных грузов, предлагая индивидуальные и оптимальные решения для
+                    каждого типа доставки. Наш опыт и ресурсы гарантируют бесперебойные поставки и полное соблюдение
+                    стандартов</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 align-content-center">
+            <div class="col-6">
+                <div class="align-content-center">
+                    <img src="assets/svg/timer_svgrepo.com.svg" alt="" class="svg">
+                    <div class="font-24 text-blue">Эффективные решения для сложных задач</div>
+                </div>
+                <p>Команда «Глобалтранс» профессионально решает нестандартные задачи в сложных условиях, включая санкционные
+                    ограничения, что позволяет нашим клиентам оставаться конкурентоспособными. Мы специализируемся на
+                    перевозке сборных, проектных и негабаритных грузов, предлагая индивидуальные и оптимальные решения для
+                    каждого типа доставки. Наш опыт и ресурсы гарантируют бесперебойные поставки и полное соблюдение
+                    стандартов</p>
+            </div>
         </div>
     </div>
 </div>
