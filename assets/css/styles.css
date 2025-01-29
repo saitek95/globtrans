@@ -608,3 +608,69 @@ header {
 .why_us .item .d-flex {
     gap: 20px;
 }
+
+.section_btn_callback .btn {
+    padding: 23.5px 0;
+    width: 420px;
+    background: #32357C;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.section_btn_callback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_btn_callback:before {
+    content: '';
+    background: url('/assets/svg/background-slash.svg');
+    position: absolute;
+    left: 0;
+    width: 665px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_btn_callback:after {
+    content: '';
+    background: url(/assets/svg/background-slash.svg);
+    position: absolute;
+    right: 0;
+    width: 665px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reviews h3 {
+    color: #32357C;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.reviews .name {
+    color: #32357C;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.reviews .text {
+    color: #909090;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reviews .info_reviews_user {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviews .swiper {
+    overflow: initial;
+}

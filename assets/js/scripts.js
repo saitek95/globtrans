@@ -13,6 +13,11 @@ var stockSwiper = new Swiper(".stock .swiper", {
     },
 });
 
+var reviewsSwiper = new Swiper(".reviews .swiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+});
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;
