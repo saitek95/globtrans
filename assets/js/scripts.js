@@ -4,6 +4,15 @@ var addServicesSwiper = new Swiper(".add-services .swiper", {
 
 });
 
+var stockSwiper = new Swiper(".stock .swiper", {
+    slidesPerView: 2,
+    spaceBetween: 23,
+    navigation: {
+        nextEl: ".stock .next_slider",
+        prevEl: ".stock .prev_slider",
+    },
+});
+
 window.addEventListener("DOMContentLoaded", function() {
     [].forEach.call( document.querySelectorAll('.phone'), function(input) {
         var keyCode;
