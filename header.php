@@ -25,7 +25,21 @@
                     </div>
                     <div class="head-menu">
                         <ul class="">
-                            <li><a href="../services/">Наши услуги <span>+</span></a></li>
+                            <li class="dropdown_items">
+                                <a href="../services/">Наши услуги <span>+</span></a>
+                                <ul class="dropdown">
+                                    <li><a href="../services/">
+                                            Наши услуги
+                                            <span><img src="assets/svg/menu_arrow_top.svg" alt="" class="svg"></span>
+                                        </a>
+                                    </li>
+                                    <li><a href="">Авиаперевозки</a></li>
+                                    <li><a href="">Автоперевозки</a></li>
+                                    <li><a href="">ЖД перевозки</a></li>
+                                    <li><a href="">Негабаритные грузы</a></li>
+                                    <li><a href="">Дополнительные услуги</a></li>
+                                </ul>
+                            </li>
                             <li><a href="../news/">Новости</a></li>
                             <li><a href="../jobs/">Вакансии</a></li>
                         </ul>

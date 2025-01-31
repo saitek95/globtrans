@@ -1,3 +1,24 @@
+$(document).on('click', '[href="#phone"]', function () {
+    $('.overlay').fadeIn(300);
+    $('.popup').fadeIn(300);
+    $('.modal').fadeIn(300);
+    $('body').css('overflow', 'hidden');
+})
+
+$(document).on('click', '.close_form', function () {
+    $('.overlay').fadeOut(300);
+    $('.popup').fadeOut(300);
+    $('.modal').fadeOut(300);
+    $('body').css('overflow', '');
+})
+
+$(document).on('click', '.overlay', function () {
+    $('.overlay').fadeOut(300);
+    $('.popup').fadeOut(300);
+    $('.modal').fadeOut(300);
+    $('body').css('overflow', '');
+})
+
 var addServicesSwiper = new Swiper(".add-services .swiper", {
     slidesPerView: 2.8,
     spaceBetween: 30,

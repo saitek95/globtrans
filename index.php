@@ -369,7 +369,7 @@
 <div class="container stock">
     <h3 class="mb-5">Акции</h3>
     <div class="stock_slides">
-        <div class="swiper col-10 align-content-center">
+        <div class="swiper col-11 align-content-center">
             <div class="swiper-wrapper">
                 <a href="#" class="swiper-slide rounded-3 bg-white">
                     <img src="assets/svg/icon_ru.svg" alt="" class="svg">
@@ -471,7 +471,7 @@
     </div>
 </div>
 <div class="container section_btn_callback">
-    <a href="#" class="btn">Напишите нам</a>
+    <a href="#phone" class="btn">Напишите нам</a>
 </div>
 <div class="container reviews">
     <h3>Отзывы о нас</h3>
@@ -558,7 +558,7 @@
                         <input type="text" placeholder="Ваше имя" name="name">
                     </div>
                     <div class="col-6">
-                        <input type="text" placeholder="Номер телефона" name="phone">
+                        <input type="text" placeholder="Номер телефона" class="phone" name="phone">
                     </div>
                     <div class="col-12">
                         <textarea name="comment" placeholder="Комментарии"></textarea>
