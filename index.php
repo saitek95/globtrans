@@ -246,55 +246,122 @@
 <div class="container facts">
     <h3 class="mb-5">Факты в цифрах</h3>
     <div class="numbers justify-content-center">
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">10</p>
-                <p>филиалов по всей России</p>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">10</p>
+                    <p>филиалов по всей России</p>
+                </div>
+                <p>Санкт-Петербург, Самара, Екатеринбург, Владивосток, Хабаровск, Краснодар, Воронеж, Нижний Новгород,
+                    Курск, Орёл</p>
             </div>
-            <p>Санкт-Петербург, Самара, Екатеринбург, Владивосток, Хабаровск, Краснодар, Воронеж, Нижний Новгород,
-                Курск, Орёл</p>
-        </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">2</p>
-                <p>филиала в Китае</p>
-            </div>
-        </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">100 000</p>
-                <p>перевозок в год по всему миру</p>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">10</p>
+                    <p>филиалов по всей России</p>
+                </div>
+                <p>Санкт-Петербург, Самара, Екатеринбург, Владивосток, Хабаровск, Краснодар, Воронеж, Нижний Новгород,
+                    Курск, Орёл</p>
             </div>
         </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">85</p>
-                <p>сотрудников в нашей компании</p>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block 2">
+                <div class="top_block">
+                    <p class="num">2</p>
+                    <p>филиала в Китае</p>
+                </div>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">2</p>
+                    <p>филиала в Китае</p>
+                </div>
             </div>
         </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block d-flex align-items-center">
-                <p class="num">17</p>
-                <p>транспортных средств</p>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">100 000</p>
+                    <p>перевозок в год по всему миру</p>
+                </div>
             </div>
-            <p>Глобалтранс обладает собственным автопарком</p>
-        </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">200 000 000</p>
-                <p>рублей в сумме, на которую застрахована наша ответственность экспедитора</p>
-            </div>
-        </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block">
-                <p class="num">15</p>
-                <p>лет в сфере транспортной логистики</p>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">100 000</p>
+                    <p>перевозок в год по всему миру</p>
+                </div>
             </div>
         </div>
-        <div class="item rounded-25 bg-white p-2">
-            <div class="top_block bg-white">
-                <p class="num">400+</p>
-                <p>постоянных клиентов</p>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">85</p>
+                    <p>сотрудников в нашей компании</p>
+                </div>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">85</p>
+                    <p>сотрудников в нашей компании</p>
+                </div>
+            </div>
+        </div>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block d-flex align-items-center">
+                    <p class="num">17</p>
+                    <p>транспортных средств</p>
+                </div>
+                <p>Глобалтранс обладает собственным автопарком</p>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block d-flex align-items-center">
+                    <p class="num">17</p>
+                    <p>транспортных средств</p>
+                </div>
+                <p>Глобалтранс обладает собственным автопарком</p>
+            </div>
+        </div>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">200 000 000</p>
+                    <p>рублей в сумме, на которую застрахована наша ответственность экспедитора</p>
+                </div>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">200 000 000</p>
+                    <p>рублей в сумме, на которую застрахована наша ответственность экспедитора</p>
+                </div>
+            </div>
+        </div>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">15</p>
+                    <p>лет в сфере транспортной логистики</p>
+                </div>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">15</p>
+                    <p>лет в сфере транспортной логистики</p>
+                </div>
+            </div>
+        </div>
+        <div class="item rounded-25 bg-white">
+            <div class="front_block px-2">
+                <div class="top_block">
+                    <p class="num">400+</p>
+                    <p>постоянных клиентов</p>
+                </div>
+            </div>
+            <div class="back_block px-2">
+                <div class="top_block">
+                    <p class="num">400+</p>
+                    <p>постоянных клиентов</p>
+                </div>
             </div>
         </div>
     </div>
@@ -410,7 +477,7 @@
     <h3>Отзывы о нас</h3>
     <div class="swiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide rounded-3 bg-white p-2">
+            <div class="swiper-slide rounded-3 bg-white px-4 py-3">
                 <div class="top_block">
                     <div class="name">Название компании</div>
                     <div class="text">
@@ -423,7 +490,7 @@
                     Имя Фамилия, должность
                 </div>
             </div>
-            <div class="swiper-slide rounded-3 bg-white p-2">
+            <div class="swiper-slide rounded-3 bg-white px-4 py-3">
                 <div class="top_block">
                     <div class="name">Название компании</div>
                     <div class="text">
@@ -436,7 +503,7 @@
                     Имя Фамилия, должность
                 </div>
             </div>
-            <div class="swiper-slide rounded-3 bg-white p-2">
+            <div class="swiper-slide rounded-3 bg-white px-4 py-3">
                 <div class="top_block">
                     <div class="name">Название компании</div>
                     <div class="text">
@@ -449,7 +516,7 @@
                     Имя Фамилия, должность
                 </div>
             </div>
-            <div class="swiper-slide rounded-3 bg-white p-2">
+            <div class="swiper-slide rounded-3 bg-white px-4 py-3">
                 <div class="top_block">
                     <div class="name">Название компании</div>
                     <div class="text">
@@ -462,7 +529,7 @@
                     Имя Фамилия, должность
                 </div>
             </div>
-            <div class="swiper-slide rounded-3 bg-white p-2">
+            <div class="swiper-slide rounded-3 bg-white px-4 py-3">
                 <div class="top_block">
                     <div class="name">Название компании</div>
                     <div class="text">
@@ -475,6 +542,235 @@
                     Имя Фамилия, должность
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="container form_home">
+    <div class="row bg-white p-4 rounded-25">
+        <div class="col-7">
+            <h3>
+                Не нашли ответ на свой вопрос?
+            </h3>
+            <p class="subtitle pb-4">Напишите вопрос и ваш номер, и наш менеджер свяжется с вами</p>
+            <form action="">
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" placeholder="Ваше имя" name="name">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" placeholder="Номер телефона" name="phone">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="comment" placeholder="Комментарии"></textarea>
+                    </div>
+                    <div class="col-6">
+                        <input type="submit" name="submit" class="btn btn-default btn-blue" value="Отправить">
+                    </div>
+                    <div class="col-6">
+                        <p class="text-secondary">
+                            Нажимая кнопку «Отправить», ядаю свое согласие наобработку моих персональных данных,
+                            в соответствии с <a href="#">политикой конфиденциальности</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-5 align-content-center">
+            <img src="assets/svg/form_home__img.svg" alt="" class="svg form_home__img">
+        </div>
+    </div>
+</div>
+<div class="container cases">
+    <div class="row">
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="item" style="background-image: url('assets/img/899cbcd1ce208222cd01feadc2ff7ca5.png')">
+                <h4>Кейс 1</h4>
+                <p>Описание описание описание описание описание</p>
+                <a href="#" class="btn btn-mdl btn-white">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container trust">
+    <h3>НАМ ДОВЕРЯЮТ КРУПНЫЕ КОМПАНИИ</h3>
+    <div class="row">
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/sibur.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/mvideo.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/ozon.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/sibur.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/ozon.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/sibur.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/mvideo.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/bork.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/bork.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/mvideo.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/sibur.png" alt="">
+        </div>
+        <div class="col-3 d-flex align-content-center align-items-center justify-content-center">
+            <img src="assets/img/ozon.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="container news">
+    <div class="row">
+        <div class="col-6">
+            <h3>Новости</h3>
+        </div>
+        <div class="col-6 d-flex align-items-center justify-content-end">
+            <a href="#" class="btn btn-big btn-blue">
+                Все новости
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <a href="#" class="item rounded-25 p-3 d-flex flex-column justify-content-end" style="background-image: url('assets/img/news-1.png')">
+                <span>
+                    <img src="assets/svg/arrow-news.svg" alt="" class="svg">
+                </span>
+                <p class="name">
+                    Глобал транс заключила соглашение
+                    о сотрудничестве с новым партнером
+                    для расширения сети перевозок
+                </p>
+                <p class="date">
+                    02.04.2024
+                </p>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="#" class="item rounded-25 p-3 d-flex flex-column justify-content-end" style="background-image: url('assets/img/news-1.png')">
+                <span>
+                    <img src="assets/svg/arrow-news.svg" alt="" class="svg">
+                </span>
+                <p class="name">
+                    Глобал транс заключила соглашение
+                    о сотрудничестве с новым партнером
+                    для расширения сети перевозок
+                </p>
+                <p class="date">
+                    02.04.2024
+                </p>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="#" class="item rounded-25 p-3 d-flex flex-column justify-content-end" style="background-image: url('assets/img/news-1.png')">
+                <span>
+                    <img src="assets/svg/arrow-news.svg" alt="" class="svg">
+                </span>
+                <p class="name">
+                    Глобал транс заключила соглашение
+                    о сотрудничестве с новым партнером
+                    для расширения сети перевозок
+                </p>
+                <p class="date">
+                    02.04.2024
+                </p>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="#" class="item rounded-25 p-3 d-flex flex-column justify-content-end" style="background-image: url('assets/img/news-1.png')">
+                <span>
+                    <img src="assets/svg/arrow-news.svg" alt="" class="svg">
+                </span>
+                <p class="name">
+                    Глобал транс заключила соглашение
+                    о сотрудничестве с новым партнером
+                    для расширения сети перевозок
+                </p>
+                <p class="date">
+                    02.04.2024
+                </p>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="container contacts">
+    <div class="row">
+        <div class="col-6">
+            <h3>Наши контакты</h3>
+            <div class="item d-flex flex-row align-items-start">
+                <img src="assets/svg/contacts_location.svg" alt="" class="svg">
+                <p>
+                    123112, г. Москва, ВН. Тер. г. муниципальный округ, Пресненский,
+                    Пресненская наб., д.12 (Москва-Сити)
+                </p>
+            </div>
+            <div class="item d-flex align-items-center">
+                <img src="assets/svg/contacts_mail.svg" alt="" class="svg">
+                <a href="mailto:ds@globtrans.ru">
+                    ds@globtrans.ru
+                </a>
+            </div>
+            <div class="item d-flex flex-row align-items-start">
+                <img src="assets/svg/contacts_phone.svg" alt="" class="svg">
+                <div>
+                    <a href="tel:88005555288">8 800 555 52 88</a>
+                    <a href="tel:84951505151">8 495 150 51 51</a>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#" class="btn btn-big btn-blue">Написать нам</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="assets/img/contacts_map.png" alt="">
         </div>
     </div>
 </div>
